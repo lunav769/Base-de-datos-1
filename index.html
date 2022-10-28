@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // La configuración de Firebase de tu aplicación werb.
+      //agregar aquí
+      const firebaseConfig = {
+  apiKey: "AIzaSyC9EKLEdSx17x8OwTSgq0c4yfXgHNYsNX0",
+  authDomain: "juego-de-pelota-8886b.firebaseapp.com",
+  databaseURL: "https://juego-de-pelota-8886b-default-rtdb.firebaseio.com",
+  projectId: "juego-de-pelota-8886b",
+  storageBucket: "juego-de-pelota-8886b.appspot.com",
+  messagingSenderId: "692689711342",
+  appId: "1:692689711342:web:b8efcc943efb021cbdc3ff"
+};
+      // Inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
